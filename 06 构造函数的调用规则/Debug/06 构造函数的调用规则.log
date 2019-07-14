@@ -1,0 +1,11 @@
+﻿生成启动时间为 2019/7/14 10:07:28。
+     1>项目“E:\experience\c++\03马c++\06 构造函数的调用规则\06 构造函数的调用规则.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\experience\c++\03马c++\06 构造函数的调用规则\test.cpp(65): error C2512: “MyClass2”: 没有合适的默认构造函数可用
+     1>已完成生成项目“E:\experience\c++\03马c++\06 构造函数的调用规则\06 构造函数的调用规则.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.62
