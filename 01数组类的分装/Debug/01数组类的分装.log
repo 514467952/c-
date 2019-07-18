@@ -1,0 +1,24 @@
+﻿生成启动时间为 2019/7/17 20:41:39。
+     1>项目“E:\experience\c++\马05c++\01数组类的分装\01数组类的分装.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\experience\c++\马05c++\Debug\01数组类的分装.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\experience\c++\马05c++\Debug\01数组类的分装.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\experience\c++\马05c++\Debug\01数组类的分装.lib" /MACHINE:X86 Debug\Myarray.obj
+         Debug\Myarray.obj
+         Debug\test.obj
+     1>Debug\Myarray.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall MyArray::MyArray(int)" (??0MyArray@@QAE@H@Z)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall MyArray::MyArray(class MyArray const &)" (??0MyArray@@QAE@ABV0@@Z)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall MyArray::~MyArray(void)" (??1MyArray@@QAE@XZ)，该符号在函数 "public: void * __thiscall MyArray::`scalar deleting destructor'(unsigned int)" (??_GMyArray@@QAEPAXI@Z) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall MyArray::Push_Back(int)" (?Push_Back@MyArray@@QAEXH@Z)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall MyArray::getData(int)" (?getData@MyArray@@QAEHH@Z)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall MyArray::setData(int,int)" (?setData@MyArray@@QAEXHH@Z)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall MyArray::getSize(void)" (?getSize@MyArray@@QAEHXZ)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>test.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall MyArray::getCapacity(void)" (?getCapacity@MyArray@@QAEHXZ)，该符号在函数 "void __cdecl test01(void)" (?test01@@YAXXZ) 中被引用
+     1>E:\experience\c++\马05c++\Debug\01数组类的分装.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“E:\experience\c++\马05c++\01数组类的分装\01数组类的分装.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.04
