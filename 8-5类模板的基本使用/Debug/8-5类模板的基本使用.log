@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/7/27 16:13:30。
+     1>项目“E:\experience\c++\马08c++\8-5类模板的基本使用\8-5类模板的基本使用.vcxproj”在节点 6 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\experience\c++\马08c++\8-5类模板的基本使用\test.cpp(67): error C2039: “showPerson2”: 不是“Person1”的成员
+                 e:\experience\c++\马08c++\8-5类模板的基本使用\test.cpp(39) : 参见“Person1”的声明
+                 e:\experience\c++\马08c++\8-5类模板的基本使用\test.cpp(66): 编译类 模板 成员函数“void myClass<Person1>::func2(void)”时
+                 e:\experience\c++\马08c++\8-5类模板的基本使用\test.cpp(78): 参见对正在编译的函数 模板 实例化“void myClass<Person1>::func2(void)”的引用
+                 e:\experience\c++\马08c++\8-5类模板的基本使用\test.cpp(76): 参见对正在编译的类 模板 实例化“myClass<Person1>”的引用
+     1>已完成生成项目“E:\experience\c++\马08c++\8-5类模板的基本使用\8-5类模板的基本使用.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.36
