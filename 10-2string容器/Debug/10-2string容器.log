@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/7/30 11:13:54。
+     1>项目“E:\experience\c++\马10c++\10-2string容器\10-2string容器.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\experience\c++\马10c++\10-2string容器\test.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\experience\c++\马10c++\10-2string容器\test.cpp(188): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\experience\c++\马10c++\Debug\10-2string容器.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\experience\c++\马10c++\Debug\10-2string容器.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\experience\c++\马10c++\Debug\10-2string容器.lib" /MACHINE:X86 Debug\test.obj
+         10-2string容器.vcxproj -> E:\experience\c++\马10c++\Debug\10-2string容器.exe
+     1>已完成生成项目“E:\experience\c++\马10c++\10-2string容器\10-2string容器.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.06
