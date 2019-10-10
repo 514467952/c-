@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/10/9 10:22:52。
+     1>项目“E:\experience\c++\MemoryPool\MemoryPool\MemoryPool.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+     1>e:\experience\c++\memorypool\memorypool\objectpool.h(32): error C2039: “bytesize”: 不是“ObjectPool<int>::Block”的成员
+                 e:\experience\c++\memorypool\memorypool\objectpool.h(51) : 参见“ObjectPool<int>::Block”的声明
+                 e:\experience\c++\memorypool\memorypool\objectpool.h(21): 编译类 模板 成员函数“int *ObjectPool<int>::New(void)”时
+                 e:\experience\c++\memorypool\memorypool\objectpool.h(80): 参见对正在编译的函数 模板 实例化“int *ObjectPool<int>::New(void)”的引用
+                 e:\experience\c++\memorypool\memorypool\objectpool.h(79): 参见对正在编译的类 模板 实例化“ObjectPool<int>”的引用
+     1>e:\experience\c++\memorypool\memorypool\objectpool.h(32): error C2512: “ObjectPool<int>::Block”: 没有合适的默认构造函数可用
+     1>e:\experience\c++\memorypool\memorypool\objectpool.h(37): error C2039: “byteleft”: 不是“ObjectPool<int>::Block”的成员
+                 e:\experience\c++\memorypool\memorypool\objectpool.h(51) : 参见“ObjectPool<int>::Block”的声明
+     1>e:\experience\c++\memorypool\memorypool\objectpool.h(38): error C2039: “byteleft”: 不是“ObjectPool<int>::Block”的成员
+                 e:\experience\c++\memorypool\memorypool\objectpool.h(51) : 参见“ObjectPool<int>::Block”的声明
+     1>已完成生成项目“E:\experience\c++\MemoryPool\MemoryPool\MemoryPool.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.44
